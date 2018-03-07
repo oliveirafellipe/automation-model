@@ -13,10 +13,10 @@ public class AddLinhaCreditoTest extends BaseComLogin {
 
     @Test
     public void addLinhaCredito()  {
-        //Seu script de teste automatizado vai aqui
+        //Seu script de teste automatizado vai aqui!
 
     }
     @Test
     public void addLinhaCredito2(){
-        //Seu script de teste automatizado vai aqui
+        //Seu script de teste automatizado vai aqui!
 }
