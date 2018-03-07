@@ -9,6 +9,7 @@ public class SetUp {
 
     public WebDriver getBrowser(){
         String browserType = System.getProperty("browser");
+
         // mvn clean test -Dbrowser=chrome -Dwebdriver.chrome.driver=c:\drivers\chromedriver.exe
         if ("ie".equals(browserType)) {
             browser = new ChromeDriver();

@@ -19,6 +19,7 @@ public class BaseComLogin {
         SetUp setUp = new SetUp();
         browser = setUp.getBrowser();
         browser.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+
         executaLogin(browser);
     }
 
